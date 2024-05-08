@@ -21,3 +21,19 @@ let myObj ={
 const myFunction = function(){
     console.log("Hollow World");
 }
+
+//*******************************************************Memories */
+
+//stack => primitive, provides a copy
+// Heap => non - primitive, provides a reference that will in turn change the data
+
+let user1 ={
+    email: "user@google.com"
+}
+
+let user2 = user1
+
+user2.email = "nirwan@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
