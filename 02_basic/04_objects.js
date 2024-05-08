@@ -52,3 +52,5 @@ console.log(tinderUser.hasOwnProperty('islLoggedIn'));
 
 const {name : myName} = tinderUser
 console.log(myName);
+
+//JSON is all type of api
